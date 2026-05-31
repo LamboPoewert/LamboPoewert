@@ -4,19 +4,20 @@ I'm building [Made on Sol](https://madeonsol.com) — a Solana trading intellige
 
 **What MadeOnSol does:**
 
-- 🔍 1,063 Solana tools tracked across 30 categories
-- 📡 1,050+ KOL wallets monitored in real-time across 11 DEXes
-- 🚀 17,000+ Pump.fun deployers scored by bonding rate
-- 🧠 47,000+ alpha wallets scored from 1.1M+ buyer records
-- 💰 Self-calculated token prices and market caps from our own gRPC streams
-- 📊 REST API, WebSocket, webhooks, MCP server, and x402 micropayments
+- 🔍 1,070 Solana tools tracked across 30 categories
+- 📡 1,069 KOL wallets monitored in real-time across 11 DEX programs
+- 🚀 23,000+ Pump.fun deployers scored by bonding rate
+- 🧠 1M+ alpha wallets scored from 1.77M KOL trade records
+- 💰 Self-calculated token prices and market caps from our own gRPC streams — zero third-party price APIs
+- 📊 REST API, WebSocket streams, webhooks, MCP server, and x402 micropayments
 
 **Tech stack:**
 
 - Next.js, Tailwind CSS, self-hosted Supabase (PostgreSQL)
-- Dual gRPC streams (Frankfurt + New York) via Yellowstone
-- Dedicated Hetzner server — Xeon E-2176G, 64GB ECC RAM, NVMe RAID1
-- All data sourced from on-chain. Zero third-party API dependencies for pricing.
+- Dual gRPC streams (Frankfurt + New York) via Yellowstone/Kaldera — <3s trade latency
+- Dedicated Hetzner server — Xeon E-2176G, 64GB ECC RAM, NVMe RAID1, SATA RAID1 backup
+- 180-day KOL trade retention, 120-day wallet tracker retention
+- All data sourced on-chain. No Birdeye, no DexScreener, no third-party price feeds.
 
 **Open source packages:**
 
@@ -29,10 +30,10 @@ I'm building [Made on Sol](https://madeonsol.com) — a Solana trading intellige
 
 **Stats:**
 
-- 73+ registered developers
-- 95,000+ API requests served
-- 7,652 pages indexed on Google
-- 3,400+ Bing AI citations
-- Profitable at $245 MRR — solo developer, $0 marketing spend
+- 133 registered developers
+- 500,000+ API requests served
+- 174,000+ unique tokens tracked
+- 370+ blog posts published
+- $2,299 MRR — solo developer, $0 marketing spend
 
 🔗 [madeonsol.com](https://madeonsol.com) · [API Docs](https://madeonsol.com/api-docs) · [Developer Portal](https://madeonsol.com/developer) · [Telegram Bot](https://t.me/MadeOnSolAlphaBot)
