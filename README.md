@@ -20,10 +20,12 @@ I'm building [Made on Sol](https://madeonsol.com) — a Solana trading intellige
 
 **Open source packages:**
 
-- [@madeonsol/sdk](https://www.npmjs.com/package/@madeonsol/sdk) — TypeScript SDK
-- [madeonsol](https://pypi.org/project/madeonsol/) — Python SDK
-- [@madeonsol/mcp-server](https://www.npmjs.com/package/@madeonsol/mcp-server) — MCP Server for AI agents
-- ElizaOS plugin, Solana Agent Kit plugin, x402 integration
+- [madeonsol](https://www.npmjs.com/package/madeonsol) — TypeScript SDK
+- [madeonsol-x402](https://pypi.org/project/madeonsol-x402/) — Python SDK
+- [mcp-server-madeonsol](https://www.npmjs.com/package/mcp-server-madeonsol) — MCP Server for AI agents
+- [@madeonsol/plugin-madeonsol](https://www.npmjs.com/package/@madeonsol/plugin-madeonsol) — ElizaOS plugin
+- [solana-agent-kit-plugin-madeonsol](https://www.npmjs.com/package/solana-agent-kit-plugin-madeonsol) — Solana Agent Kit plugin
+- [madeonsol-x402](https://www.npmjs.com/package/madeonsol-x402) — x402 integration
 
 **Stats:**
 
