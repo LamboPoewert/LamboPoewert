@@ -34,6 +34,5 @@ I'm building [Made on Sol](https://madeonsol.com) — a Solana trading intellige
 - 500,000+ API requests served
 - 174,000+ unique tokens tracked
 - 370+ blog posts published
-- $2,299 MRR — solo developer, $0 marketing spend
 
 🔗 [madeonsol.com](https://madeonsol.com) · [API Docs](https://madeonsol.com/api-docs) · [Developer Portal](https://madeonsol.com/developer) · [Telegram Bot](https://t.me/MadeOnSolAlphaBot)
