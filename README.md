@@ -1,38 +1,11 @@
-### Hey 👋
+# Hi, I’m Stijn Poortmans 👋
 
-I'm building [Made on Sol](https://madeonsol.com) — a Solana trading intelligence platform and ecosystem directory.
+I build and maintain [MadeOnSol](https://madeonsol.com), a blockchain data platform for Solana and Robinhood Chain. I work on the indexers, APIs and open-source SDKs that let developers answer questions like “What else has this deployer launched?” or “Which wallets bought this token first?”
 
-**What MadeOnSol does:**
+- On [Solana](https://madeonsol.com/solana-api), I track wallet activity, token launches and DEX trades. The [TypeScript SDK](https://github.com/MadeOnSol/madeonsol-sdk) and [paper-trading starter](https://github.com/MadeOnSol/kol-copytrade-bot-starter) show how to work with that data.
+- On [Robinhood Chain](https://madeonsol.com/robinhood), I run a node and index wallet, token and swap activity. The [Robinhood Chain SDK](https://github.com/MadeOnSol/robinhood-chain-sdk) includes examples for investigating deployers, following wallets and streaming trades.
+- For developers building with AI agents, I maintain MCP servers for [Solana](https://github.com/MadeOnSol/mcp-server-madeonsol) and [Robinhood Chain](https://github.com/MadeOnSol/mcp-server-robinhood-chain).
 
-- 🔍 1,070 Solana tools tracked across 30 categories
-- 📡 1,069 KOL wallets monitored in real-time across 11 DEX programs
-- 🚀 23,000+ Pump.fun deployers scored by bonding rate
-- 🧠 1M+ alpha wallets scored from 1.77M KOL trade records
-- 💰 Self-calculated token prices and market caps from our own gRPC streams — zero third-party price APIs
-- 📊 REST API, WebSocket streams, webhooks, MCP server, and x402 micropayments
+You can find the TypeScript, Python and Rust clients in the [MadeOnSol GitHub organization](https://github.com/MadeOnSol). For endpoints, data coverage and recent releases, see the [API docs](https://madeonsol.com/api-docs) and [changelog](https://madeonsol.com/changelog).
 
-**Tech stack:**
-
-- Next.js, Tailwind CSS, self-hosted Supabase (PostgreSQL)
-- Dual gRPC streams (Frankfurt + New York) via Yellowstone/Kaldera — <3s trade latency
-- Dedicated Hetzner server — Xeon E-2176G, 64GB ECC RAM, NVMe RAID1, SATA RAID1 backup
-- 180-day KOL trade retention, 120-day wallet tracker retention
-- All data sourced on-chain. No Birdeye, no DexScreener, no third-party price feeds.
-
-**Open source packages:**
-
-- [madeonsol](https://www.npmjs.com/package/madeonsol) — TypeScript SDK
-- [madeonsol-x402](https://pypi.org/project/madeonsol-x402/) — Python SDK
-- [mcp-server-madeonsol](https://www.npmjs.com/package/mcp-server-madeonsol) — MCP Server for AI agents
-- [@madeonsol/plugin-madeonsol](https://www.npmjs.com/package/@madeonsol/plugin-madeonsol) — ElizaOS plugin
-- [solana-agent-kit-plugin-madeonsol](https://www.npmjs.com/package/solana-agent-kit-plugin-madeonsol) — Solana Agent Kit plugin
-- [madeonsol-x402](https://www.npmjs.com/package/madeonsol-x402) — x402 integration
-
-**Stats:**
-
-- 133 registered developers
-- 500,000+ API requests served
-- 174,000+ unique tokens tracked
-- 370+ blog posts published
-
-🔗 [madeonsol.com](https://madeonsol.com) · [API Docs](https://madeonsol.com/api-docs) · [Developer Portal](https://madeonsol.com/developer) · [Telegram Bot](https://t.me/MadeOnSolAlphaBot)
+For developer questions or research collaborations, reach me at [info@madeonsol.com](mailto:info@madeonsol.com).
